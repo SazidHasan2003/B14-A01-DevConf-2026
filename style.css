@@ -39,7 +39,7 @@
 
 .banner {
   width: 100%;
-  min-height: 786px; /* সর্বনিম্ন উচ্চতা ৭৮৬ পিক্সেল হবে, প্রয়োজনে বড় হবে */
+  min-height: 786px;
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.85) 100%),
     url("./assets/banner.jpg") no-repeat center center/cover;
@@ -321,4 +321,48 @@
   background: transparent;
   border: 1px solid #0d1b2a;
   color: #0d1b2a;
+}
+
+/* Footer  */
+.main-footer {
+  background-color: #0d1b2a;
+  padding: 60px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left p {
+  color: #ffff;
+  font-size: 16px;
+}
+
+.footer-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer-links a {
+  color: #ffff;
+  text-decoration: none;
+  font-size: 16px;
+  margin-left: 24px;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-socials a {
+  color: #ffffff;
+  font-size: 18px;
+  text-decoration: none;
+  display: inline-block;
 }
