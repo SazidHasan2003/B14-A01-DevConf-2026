@@ -160,3 +160,165 @@
   color: #575757;
   font-size: 14px;
 }
+
+/* Prising Section */
+
+.pricing-section {
+  /* padding: 100px 20px; */
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+.pricing-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.pricing-header h2 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #0d1b2a;
+  margin-bottom: 16px;
+}
+
+.pricing-header p {
+  font-size: 16px;
+  color: #575757;
+}
+
+.pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.pricing-card {
+  border-radius: 12px;
+  padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 80px;
+}
+
+.standard-card,
+.team-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+}
+.team-card {
+  background: #f9fafb;
+}
+
+.pro-card {
+  background: #0d1b2a;
+  color: #ffffff;
+  border: none;
+}
+
+.card-header {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.card-type {
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: #575757;
+  margin-bottom: 12px;
+}
+.pro-card .card-type {
+  color: #93c5fd;
+}
+
+.price {
+  font-size: 54px;
+  font-weight: bold;
+  color: #0d1b2a;
+  line-height: 1;
+}
+.pro-card .price {
+  color: #ffffff;
+}
+
+.price-sub {
+  font-size: 14px;
+  color: #ffff;
+  margin-top: 8px;
+}
+.pro-card .price-sub {
+  color: #a3a3a3;
+}
+
+.card-divider {
+  border: 0;
+  border-top: 1px solid #e5e7eb;
+  margin: 24px 0;
+}
+.pro-card .card-divider {
+  border-top: 1px solid #1e293b;
+}
+
+.features-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0;
+  flex-grow: 1;
+}
+
+.features-list li {
+  font-size: 15px;
+  color: #0d1b2a;
+  margin-bottom: 16px;
+  position: relative;
+  padding-left: 20px;
+}
+.pro-card .features-list li {
+  color: #e2e8f0;
+}
+
+.features-list li::before {
+  content: ".";
+  position: absolute;
+  left: 0;
+  color: #2563eb;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1;
+  top: -1px;
+}
+
+.pricing-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+}
+
+.pricing-btn:hover {
+  cursor: pointer;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #2563eb;
+  color: #2563eb;
+}
+
+.btn-solid {
+  background-color: #2563eb;
+  color: #ffffff;
+}
+
+.btn-dark-outline {
+  background: transparent;
+  border: 1px solid #0d1b2a;
+  color: #0d1b2a;
+}
