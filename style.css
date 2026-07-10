@@ -31,3 +31,59 @@
   color: #ffff;
   font-weight: bold;
 }
+
+.nav-btn:hover {
+  background-color: #1e40af;
+  cursor: pointer;
+}
+
+.banner {
+  width: 100%;
+  min-height: 786px; /* সর্বনিম্ন উচ্চতা ৭৮৬ পিক্সেল হবে, প্রয়োজনে বড় হবে */
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.85) 100%),
+    url("./assets/banner.jpg") no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.banner h1 {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 22px;
+}
+.banner h1 {
+  margin-bottom: 20px;
+}
+
+.banner h1 span {
+  font-style: italic;
+  font-weight: 600;
+}
+
+.banner h1,
+p {
+  text-align: center;
+  color: #ffff;
+}
+
+.banner button {
+  background-color: #1d4ed8;
+  border: none;
+  border-radius: 10px;
+  padding: 16px 36px;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.banner button:hover {
+  background-color: #1e40af;
+  transform: translateY(-2px);
+  cursor: pointer;
+}
