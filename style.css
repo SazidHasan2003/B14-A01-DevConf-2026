@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 23px 60px;
+}
+
+.nav-manu {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #575757;
+}
+
+.nav-btn {
+  background-color: #1d4ed8;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 12px;
+  color: #ffff;
+  font-weight: bold;
+}
