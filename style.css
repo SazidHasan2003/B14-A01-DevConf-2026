@@ -282,7 +282,7 @@
 }
 
 .features-list li::before {
-  content: ".";
+  content: "\2022";
   position: absolute;
   left: 0;
   color: #2563eb;
